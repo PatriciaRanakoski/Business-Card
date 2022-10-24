@@ -28,7 +28,6 @@ function Info() {
 
 export default Info
 
-//how to create a variable in python?
 
 
 
