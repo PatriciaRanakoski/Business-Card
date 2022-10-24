@@ -4,8 +4,7 @@ import mail from '../images/Mail.png'
 import linkedIn from '../images/linkedin.png'
 
 function Info() {
-    return (
-        <>
+    return (  
             <div className='info-content'>
                 <img src={photo} alt="Patricia" className='my-image' />
                 <h3 className='my-name'>Patricia Ranakoski</h3>
@@ -22,7 +21,6 @@ function Info() {
                 </button>
             </div>
             </div>
-        </>
     )
 }
 
