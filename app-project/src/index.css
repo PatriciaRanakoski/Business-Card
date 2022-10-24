@@ -1,0 +1,147 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 550px;
+  height: 868px; */
+  background-color: #23252C;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.container {
+  background-color:  #1A1B21;
+
+}
+
+.my-image {
+  width: 317px;
+  height: 317px;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.info-content {
+  background-color: #1A1B21;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-name {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h3, h4, h5 {
+  display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+  color: #F3BF99;
+  font-size: 18px;
+  height: 14px;
+  width: 292px;
+}
+
+h5 {
+  width: 295px;
+  height: 16px;
+  font-size: 10px;
+  color: #F5F5F5;
+  font-weight: lighter;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.linkedin-btn {
+  background-color: #5093E2;
+  color: #fff;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+.email-btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+.mail-icon {
+  width: 18px; 
+  color: #1E1F26;
+ 
+}
+
+
+span {
+  padding-left: 10px;
+}
+/****** About Me and Interests *******/
+
+.div-about {
+  width: 250px;
+  height: 135px;
+  background-color: #1A1B21;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+.facts {
+  color: #F5F5F5;
+  width: 242px;
+  height: 15px;
+  /* font-size: 16px; */
+  font-weight: bold;
+  background-color: #1A1B21;
+  padding-left: 18px;
+
+}
+
+.facts-info{
+  width: 286px;
+  height: 61px;
+  color: #DCDCDC;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: #1A1B21;
+  padding-left: 18px;
+}
+
+/****** footer *******/
+
+.main-footer {
+  width: 317px;
+  height: 64px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #161619;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  justify-content: center;
+}
+.footer-content > img {
+  padding: 18px 10px;
+  width: 25px;
+  height: 25px;
+}
+
+
