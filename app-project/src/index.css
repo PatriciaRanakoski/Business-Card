@@ -2,32 +2,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 550px;
-  height: 868px; */
   background-color: #23252C;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-
 }
-.container {
-  background-color:  #1A1B21;
 
+.container {
+  background-color: #1A1B21;
 }
 
 .my-image {
-  width: 317px;
-  height: 317px;
+  width: 100%;
+  height: 374px;
   align-items: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }
 
 .info-content {
   background-color: #1A1B21;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
 }
 
 .my-name {
@@ -36,31 +29,31 @@ body {
   font-weight: bold;
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
   display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
 }
 
 h4 {
   color: #F3BF99;
   font-size: 18px;
   height: 14px;
-  width: 292px;
 }
 
 h5 {
-  width: 295px;
   height: 16px;
   font-size: 10px;
   color: #F5F5F5;
   font-weight: lighter;
 }
+
 .buttons {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .linkedin-btn {
@@ -70,6 +63,7 @@ h5 {
   height: 34px;
   border-radius: 6px;
   border-style: none;
+  cursor: pointer;
 }
 
 .email-btn {
@@ -77,18 +71,20 @@ h5 {
   height: 34px;
   border-radius: 6px;
   border-style: none;
+  cursor: pointer;
 }
 
 .mail-icon {
-  width: 18px; 
+  width: 18px;
   color: #1E1F26;
- 
+
 }
 
 
 span {
   padding-left: 10px;
 }
+
 /****** About Me and Interests *******/
 
 .div-about {
@@ -110,7 +106,7 @@ span {
 
 }
 
-.facts-info{
+.facts-info {
   width: 286px;
   height: 61px;
   color: #DCDCDC;
@@ -138,10 +134,13 @@ span {
   margin-top: 15px;
   justify-content: center;
 }
-.footer-content > img {
+
+.footer-content>img {
   padding: 18px 10px;
   width: 25px;
   height: 25px;
 }
 
-
+.icons {
+  cursor: pointer;
+}
